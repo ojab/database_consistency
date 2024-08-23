@@ -41,7 +41,7 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_dependency 'activerecord', '>= 3.2'
 
   spec.add_development_dependency 'bundler', '> 1.16'
-  spec.add_development_dependency 'mysql2', '~> 0.5'
+  # spec.add_development_dependency 'mysql2', '~> 0.5'
   spec.add_development_dependency 'pg', '>= 0.2'
   spec.add_development_dependency 'rake', '>= 12.3.3'
   spec.add_development_dependency 'rspec', '~> 3.0'
